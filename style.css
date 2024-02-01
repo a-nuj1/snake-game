@@ -1,0 +1,29 @@
+#canvas{
+    border: 2px solid;
+    box-shadow: 0 5px 5px 10px rgba(89, 2, 2, 0.5)
+}
+#gameContainer{
+    text-align: center;
+}
+#score{
+    font-family: cursive;
+    font-size: 4rem;
+    color: rgba(114, 5, 5, 0.941);
+
+}
+#restartBtn{
+    margin-top: 20px;
+    width: 100px;
+    line-height: 40px;
+    font-family: "Permanent Marker",cursive;
+    font-size:21px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: lightblue;
+    transition: background-color  ease;
+}
+#restartBtn:hover{
+    background-color: gray;
+}
+
